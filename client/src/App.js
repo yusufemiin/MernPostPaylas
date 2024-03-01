@@ -1,10 +1,16 @@
+import React from "react";
 
 function App() {
   return (
-    <div>
-        <h1 className="text-3xl font-bold underline">
-      MernPostPaylas Hoşgeldiniz!
-    </h1>
+    <div className="flex items-center justify-center h-screen bg-yellow-400">
+      <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+        <h1 className="text-3xl font-bold text-black mb-4">
+          Mern Proje Başlangıcına Hoşgeldiniz!
+        </h1>
+        <p className="text-lg text-gray-800">
+          Bu projeyi alıp temel olarak kullanabilirsiniz.
+        </p>
+      </div>
     </div>
   );
 }
